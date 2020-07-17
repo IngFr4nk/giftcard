@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="content-add" id="content-add"></div>
+    <div class="calc">
+      <select name="clase" id="clase">
+        <option value="Gift Card Regalo">Gift Card Regalo</option>
+        <option value="Gift Card Navidad">Gift Card Navidad</option>
+        <option value="Gift Card Dotación">Gift Card Dotación</option>
+      </select>
+      <select name="tipo" id="tipo">
+        <option value="Virtual">Virtual</option>
+        <option value="Fisica">Fisica</option>
+      </select>
+      <input
+        id="price"
+        type="text"
+        name="denominacion"
+        placeholder="Denominación gift card"
+      />
+      <input
+        id="count"
+        type="text"
+        name="cantidad"
+        placeholder="Cantidad gift card"
+      />
+      <!-- <input id="result" type="text" name="price" disabled /> -->
+      <input id="btn_add" type="button" value="Agregar" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
